@@ -232,6 +232,7 @@ section{
                /*  */
                .happy{ display: flex; justify-content: center; align-items: center; position: relative; top: -500px;}
                .Testimonial{ display: flex; justify-content: center; align-items: center; position: relative; top: -500px;}  
+               .contact{ display: flex; position: relative; top: 90px; left: -520px; color: black;}
                 
 
                @media( max-width:768px){
@@ -398,7 +399,7 @@ section{
     align-items: center;
     padding-block: 10px;
   }
-  
+  .contact{ display: flex; position: relative; top: 320px; left: -180px; color: black;}
 
   nav ul {
     display: flex;
