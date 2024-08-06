@@ -234,11 +234,11 @@ section{
                .Testimonial{ display: flex; justify-content: center; align-items: center; position: relative; top: -500px;}  
                .contact{ display: flex; position: relative; top: 90px; left: -520px; color: black;}
                 
-
+/* 
                @media( max-width:768px){
 
                 nav {
-                  display: flex;
+                  display: flex; 
                   justify-content: space-around;
                   align-items: center;
                   padding-block: 10px; 
@@ -357,7 +357,7 @@ section{
                                .castv{ border: 2px solid; position: relative;
                                  top: -130px; width: 120px; height: 30px; left: 60px; grid-template-columns: repeat(2,1fr) ;z-index: 2;      opacity: 0; 
                                  transform: translateY(100%); 
-                                 animation: appear 2s forwards; } */
+                                 animation: appear 2s forwards; } 
                                  .vwb{ position: relative; left: 100px;  border: 0px; z-index:2 ; top: -80px;       opacity: 0; 
                                   transform: translateY(100%); 
                                   animation: appear 2s forwards;}
@@ -383,14 +383,14 @@ section{
               
                .wrons{ background-color: white; position: relative; top: 10px; width: 300px; border-radius: 10px; position: relative; left: -160px; top: 150px;}
                .wronv{ background-color: white; position: relative; top: 15px; width: 300px; border-radius: 10px; left: -160px; top: 160px;}
-               /*  */
+               
                .mainu{ position: relative; top: -900px; left: 700px;}
-               .happy{ display: flex; justify-content: center; align-items: center; position: relative; top: -800px;}
+                .happy{ display: flex; justify-content: center; align-items: center; position: relative; top: -800px;}
                .Testimonial{ display: flex; justify-content: center; align-items: center; position: relative; top: -700px; font-size: -180px; padding: 30px;} 
                .wron{  position: relative; top: 700px; left: -460px;} 
                 
-                                }
-                                @media( max-width:375px){
+                                } 
+                                /* @media( max-width:375px){ */
 
               
   nav {
