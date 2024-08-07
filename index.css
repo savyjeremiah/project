@@ -39,7 +39,7 @@ nav ul li{
    
 
 
-body{ background-image: url(studio.jpg);background-repeat: repeat; background-size: 50% 50%; }
+body{ background-image: url(studio.jpg);background-repeat:  no-repeat repeat; background-size: 100% 100%; }
 .writup{ color: white; font-size: 30px; padding: 80px;}
 .pic{
   float: right; 
