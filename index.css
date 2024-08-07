@@ -39,7 +39,7 @@ nav ul li{
    
 
 
-body{ background-image: url(studio.jpg);}
+body{ background-image: url(studio.jpg);background-repeat: repeat; background-size: 50% 50%; }
 .writup{ color: white; font-size: 30px; padding: 80px;}
 .pic{
   float: right; 
@@ -200,7 +200,7 @@ transition: all 8s;
   
   
   body{ background-image: url(studio.jpg);}
-  .writup{ color: white; font-size: 30px; padding: 80px;}
+  .writup{ color: white; font-size: 31px; padding: 80px;}
   .pic{
     float: right; 
     position: absolute;
@@ -251,8 +251,8 @@ transition: all 8s;
    border-radius: 10px;
   }
   .card::before{
-    filter: blur(1.5rem);
-    opacity: 0.5;
+    filter: blur(1.2rem);
+    opacity: 0.2;
   }
   .bases{
     display: flex;
