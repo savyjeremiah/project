@@ -1,588 +1,260 @@
-* {
-    padding: 0;
-    margin: 0;
-  }
+*{
+  padding:0 ;
+  margin: 0;
+}
+nav{ 
   
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-block: 20px;
-  }
+  display: flex;
   
+  justify-content: center;
+  align-items: center;
+  padding-block: 20px;  font-size: 40px;
+   color: skyblue;
+   overflow: hidden; /* hides the text */
+   max-height: 0; /* starts with zero height */
+   animation: writing 9s forwards;
 
-  nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    font-family: serif;
-    opacity: 0; 
-  width: 0; 
-  animation: appear 9s forwards;
  
+}
+@keyframes writing {
+  0% { max-height: 0 }
+  100% { max-height: 100vh } /* adjust this value to your needs */
+}
 
-}
-body{  background-color: #6c5c6c; border-radius: 20px;}
-nav ul li{
-    list-style-type: none;
-}
-body{
+nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 20%;  
   
 }
-.firstwri{
-     padding: 70px; 
-     font-size: 20px;
-      opacity: 0; 
-     transform: translateY(-100%); 
-     animation: appear 1s forwards; 
-     background-color: #455a64; color: white;
- }
- @keyframes appear {
-  0% { opacity: 0; transform: translateY(100%) }
-  100% { opacity: 9; transform: translateY(0) } }
 
 
-/*  */
-.buttons{
-transform: ;}
+nav ul li{
+  list-style-type: none; 
 
-/*  */
-.firstpic{
-    position: relative;
-    top: -250px; left: 700px;
-    opacity: 0; 
-    transform: translateY(100%); 
-    animation: appear 2s forwards;
 }
-/*  */
-.ybuuton{
-    position:relative;
-    top: -350px; 
- border: px solid; width: 1000px;
- opacity: 0; 
- transform: translateY(100%); 
- animation: appear 2s forwards;
-} 
-/*  */
-section{
-    background-color: #333;
-    padding: 40px;
-    margin: 90px;
-    position: relative;
-    top: -400px;
-    z-index: 2;
-    height: 500px;
-    opacity: 0; 
-    transform: translateY(100%); 
-    animation: appear 2s forwards;
+.wnn{ position: relative; right: 250px;}
+
+
+   
+
+
+body{ background-image: url(studio.jpg);}
+.writup{ color: white; font-size: 30px; padding: 80px;}
+.pic{
+  float: right; 
+  position: absolute;
+  right: 250px;
+  
+
 }
-.facebook{
-    width: 70px; position: relative;
-    top: -299px; left: 100px; width: 90px; height: 40px;
-    opacity: 0; 
-    transform: translateY(100%); 
-    animation: appear 2s forwards;
+.wrios{ color: white; padding: 90px; font-size: 30px; position:absolute; left: 40px;}
+button{
+  padding: 1em 2em;
+  
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 100px;
+ position: relative;
+ top: 390px; left: 120px;
+
+
+
+
 }
-/*  */
-.pros{ font-size: 30px;  position: relative;
-     left: 400px ; top: -400px;   white-space: nowrap;
-     animation: typing 2s;
-     cursor: .4s step-end infinite alternate;
-     opacity: 0; 
-     transform: translateY(100%); 
-     animation: appear 2s forwards;
-     overflow: hidden;
-           }
-    
-    .swes{ width: 3000px;       opacity: 0; 
-      transform: translateY(100%); 
-      animation: appear 2s forwards;}
-    /*  */
-    .senior{ position: relative;       opacity: 0; 
-      transform: translateY(-100%); 
-      animation: appear 2s forwards;}
-/* 
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    z-index: 2; */
-    .under{ background-color: #455a64; height: 800px;  grid-template-columns: repeat(2,1fr
-         ); z-index: 1;  position: relative; top: -900px;       opacity: 0; 
-         transform: translateY(100%); 
-         animation: appear 2s forwards;}
-         /*  */
-         .processs{ position: relative; top: 500px; font-size: 40px;  left: 150px;       opacity: 0; 
-          transform: translateY(100%); 
-          animation: appear 2s forwards; color: white;}
-         .processv{ position: relative; top: 500px; left: 150px; color: white; }
-         .boru{ width: 200px; height: 90px; position: relative; top: 350px; left: 600px; border: 0px solid; background-color: white;       opacity: 0; 
-          transform: translateY(100%); 
-          animation: appear 2s forwards;}
-         .borus{ width: 200px; height: 90px; position: relative; top: 250px; left: 390px; border: 0px solid; background-color: white;}
-         .boruv{   width: 200px; height: 90px; position: relative; top: 270px; left: 409px; border: 0px solid; background-color: white;       opacity: 0; 
-          transform: translateY(100%); 
-          animation: appear 2s forwards;}
-         .boruz{ width: 200px; height: 90px; position: relative; top: 190px; left: 620px; border: 0px solid; background-color: white;      opacity: 0; 
-          transform: translateY(100%); 
-          animation: appear 2s forwards;  }
-         /*  */
-         .newsv{ height: 650px; position: relative; top: -900px;       opacity: 0; 
-          transform: translateY(100%); 
-          animation: appear 2s forwards; }
-         .oinwo{ display: flex; justify-content: center; align-content: center;      opacity: 0; 
-          transform: translateY(100%); 
-          animation: appear 2s forwards;}
-         .mmwn{ position: relative; left: 500px;      opacity: 0; 
-          transform: translateY(100%); 
-          animation: appear 2s forwards;}
-         /*  */
-         .vwbqq{ width: 180px; position: relative; left: 400px;  border: 0px; z-index:2 ;      opacity: 0; 
-          transform: translateY(100%); 
-          animation: appear 2s forwards;}
-         .vwbqqs{  width: 180px;position: relative; left: 396px;  z-index: 2;       opacity: 0; 
-          transform: translateY(100%); 
-          animation: appear 2s forwards; }
-         .vwbqqv{ width: 180px; position: relative; left: 409px; z-index: 2; top: -0px;      opacity: 0; 
-          transform: translateY(100%); 
-          animation: appear 2s forwards;}
-            /* .thireev{  position: relative; 
+.swa{
+  
+}
 
-           height: 00px; width: 190px; grid-template-columns: repeat(2,1fr);  z-index: 1;  z-index: 2;} */
-         /*  */
-        .caststudy{ border: 2px solid; position: relative;
-           top: -130px; width: 120px; height: 30px; left: 400px;   grid-template-columns: repeat(2,1fr) ;z-index: 2;       opacity: 0; 
-           transform: translateY(100%); 
-           animation: appear 2s forwards; }
-           .casts{ border: 2px solid; position: relative;
-            top: -130px; width: 120px; height: 30px; left: 470px; grid-template-columns: repeat(2,1fr) ;z-index: 2;      opacity: 0; 
-            transform: translateY(100%); 
-            animation: appear 2s forwards; }
-            .castv{ border: 2px solid; position: relative;
-              top: -130px; width: 120px; height: 30px; left: 530px; grid-template-columns: repeat(2,1fr) ;z-index: 2;      opacity: 0; 
-              transform: translateY(100%); 
-              animation: appear 2s forwards; }
-              /*  */
-              .thireev{ 
-                position: relative; left: 395px; width: 185px; top: -60px; border: 0px solid;
-                height: 260px;
-                grid-template-columns: repeat(2,1fr); z-index: 1;      opacity: 0; 
-                transform: translateY(100%); 
-                animation: appear 2s forwards;
-              }
-              /*  */
-              .vwb{ position: relative; left: 400px;  border: 0px; z-index:2 ; top: -80px;       opacity: 0; 
-                transform: translateY(100%); 
-                animation: appear 2s forwards;}
-              .vwbq{ position: relative; left: 404px;  z-index: 2; top: -80px;       opacity: 0; 
-                transform: translateY(100%); 
-                animation: appear 2s forwards; }
-              .vwbqqvx{  position: relative; left: 409px; z-index: 2; top: -80px;}
-              .thireevs{ 
-                position: relative; left: 395px; width: 185px; top: -90px; border: 0px solid;
-                height: 260px;
-                grid-template-columns: repeat(2,1fr); z-index: 1;      opacity: 0; 
-                transform: translateY(100%); 
-                animation: appear 2s forwards;
-              }
-              .nation{ position: relative; left: 250px;top: -50px; width: 100px; border: 0px; background-color: blueviolet; color: white;}
-              /*  */
-              .height{ position: relative; top: -30px;}
-              .swnwe{ display: flex; justify-content: center; align-content: center;}
-              /*  */
-              .windomm{ display: flex; justify-content: center; align-items: center; }
-              .lorem{ width: 200px; background-color: blueviolet; color: white;}
-              /*  */
-              .backg{ 
-                background-image: url(rei.jpg); height: 400px;
-                position: relative;  top: 90px;
-                
-              }
-              .Blog{ display: flex; justify-content: center; align-items: center; position: relative; top: 90px; color: white; font-size: 70px;}
-              .majority{
-                display: flex; justify-content: center; align-items: center;    position: relative; top: 90px; color: white; font-size: 20px;
-              }
-              /*  */
-              .afterback{  display: flex; justify-content: center; align-items: center; position: relative; top: 120px; left: -90px; }
-              .afterbacks{  display: flex; position: relative; top: -30px; left: 820px;}
-              .afterbackv{  display: flex; position: relative; top: -180px; left: 650px;}
-              .afterbackm{  display: flex; position: relative; top: -330px; left: 320px;}
-              /*  */
-              /* {
-                opacity: 0; 
-                transform: translateY(-100%); 
-                animation: appear 1s forwards;
-              }
-              
-              @keyframes appear {
-                0% { opacity: 0; transform: translateY(-100%) }
-                100% { opacity: 1; transform: translateY(0) } */
-                .whati{  background-color:#455a64 ; height: 1000px; position: relative; top: -200px;}
-                .whatv{ font-size: 90px; padding: 190px; color: black;}
-                .what{ font-size: 20px; margin: 190px; position: relative; top: -350px;}
-                /*  */
-               .wron{ background-color: white; width: 550px; border-radius: 10px;}
-               .wrons{ background-color: white; position: relative; top: 10px; width: 550px; border-radius: 10px;}
-               .wronv{ background-color: white; position: relative; top: 15px; width: 550px; border-radius: 10px;}
-               /*  */
-               .mainu{ position: relative; top: -900px; left: 700px;}
-               /*  */
-               .happy{ display: flex; justify-content: center; align-items: center; position: relative; top: -500px;}
-               .Testimonial{ display: flex; justify-content: center; align-items: center; position: relative; top: -500px;}  
-               .contact{ display: flex; position: relative; top: 90px; left: -520px; color: black;}
-                
-/* 
-               @media( max-width:768px){
 
-                nav {
-                  display: flex; 
-                  justify-content: space-around;
-                  align-items: center;
-                  padding-block: 10px; 
-                  
-                }
-                nav ul {
-                  display: flex;
-                  justify-content: center;
-                  gap: 10px;
-                }
-                nav ul li a{
-                  text-decoration: none;
-                  color: black;
-                  font-size: 20px;
-                  font-family: serif;
-                  opacity: 0; 
-                width: 0; 
-                animation: appear 2s forwards;
-              }
-              .firstwri{ 
-                
-                padding: 50px; 
-                font-size: 20px;
-                 opacity: 0; 
-                transform: translateY(-100%); 
-                animation: appear 1s forwards; 
-            }
-            .firstpic{
-              position: relative;
-              top: -250px; left: 420px;
-              opacity: 0; 
-              transform: translateY(100%); 
-              animation: appear 2s forwards;
-          }
-          section{
 
-            background-color: ;
-            padding: 0px;
-            margin: 50px;
-            position: relative;
-            top: -400px;
-            z-index: 2;
-            height: 500px;
-            opacity: 0; 
-            transform: translateY(100%); 
-            animation: appear 2s forwards;
-        }
-        .pros{ font-size: 20px;  position: relative;
-          left: 310px ; top: -250px;   white-space: nowrap;
-          animation: typing 2s;
-          cursor: .4s step-end infinite alternate;
-          opacity: 0; 
-          transform: translateY(100%); 
-          animation: appear 2s forwards;
-          overflow: hidden;
-                }
-                .processs{ position: relative; top: 500px; font-size: 40px;  left: 90px;       opacity: 0; 
-                  transform: translateY(100%); 
-                  animation: appear 2s forwards;}
-                 .processv{ position: relative; top: 500px; left: 90px; }
-                 .boru{ width: 200px; height: 90px; position: relative; top: 410px; left: 550px; border: 0px solid; background-color: white;       opacity: 0; 
-                  transform: translateY(100%); 
-                  animation: appear 2s forwards;}
-                 .borus{ width: 200px; height: 90px; position: relative; top: 330px; left: 340px; border: 0px solid; background-color: white;}
-                 .boruv{   width: 200px; height: 90px; position: relative; top: 340px; left: 329px; border: 0px solid; background-color: white;       opacity: 0; 
-                  transform: translateY(100%); 
-                  animation: appear 2s forwards;}
-                 .boruz{ width: 200px; height: 90px; position: relative; top: 250px; left: 539px; border: 0px solid; background-color: white;      opacity: 0; 
-                  transform: translateY(100%); 
-                  animation: appear 2s forwards;  }
-                  .newsv{ height: 650px; position: relative; top: -900px;       opacity: 0; 
-                    transform: translateY(100%); 
-                    animation: appear 2s forwards; }
-                   .oinwo{ display: flex; justify-content: center; align-content: center;      opacity: 0; 
-                    transform: translateY(100%); 
-                    animation: appear 2s forwards;}
-                    .mmwn{ position: relative; left: 200px;      opacity: 0; 
-                      transform: translateY(100%); 
-                      animation: appear 2s forwards;}
-                      .vwbqq{ position: relative; left: 100px;  border: 0px; z-index:2 ;      opacity: 0; 
-                        transform: translateY(100%); 
-                        animation: appear 2s forwards;}
-                       .vwbqqs{ position: relative; left: 100px;  z-index: 2;       opacity: 0; 
-                        transform: translateY(100%); 
-                        animation: appear 2s forwards; }
-                       .vwbqqv{  position: relative; left: 100px; z-index: 2; top: -0px;      opacity: 0; 
-                        transform: translateY(100%); 
-                        animation: appear 2s forwards;}
-                        .caststudy{ border: 2px solid; position: relative;
-                          top: -130px; width: 120px; height: 30px; left: 100px;   grid-template-columns: repeat(2,1fr) ;z-index: 2;       opacity: 0; 
-                          transform: translateY(100%); 
-                          animation: appear 2s forwards; }
-                          .casts{ border: 2px solid; position: relative;
-                           top: -130px; width: 120px; height: 30px; left: 200px; grid-template-columns: repeat(2,1fr) ;z-index: 2;      opacity: 0; 
-                           transform: translateY(100%); 
-                           animation: appear 2s forwards; }
-                           .castv{ border: 2px solid; position: relative;
-                             top: -130px; width: 120px; height: 30px; left: 250px; grid-template-columns: repeat(2,1fr) ;z-index: 2;      opacity: 0; 
-                             transform: translateY(100%); 
-                             animation: appear 2s forwards; }
-                             .thireev{ 
-                              position: relative; left: 100px; width: 185px; top: -60px; border: 0px solid;
-                              height: 260px;
-                              grid-template-columns: repeat(2,1fr); z-index: 1;      opacity: 0; 
-                              transform: translateY(100%); 
-                              animation: appear 2s forwards;
-                            }
-                            /* .caststudy{ border: 2px solid; position: relative;
-                              top: -130px; width: 120px; height: 30px; left: 100px;   grid-template-columns: repeat(2,1fr) ;z-index: 2;       opacity: 0; 
-                              transform: translateY(100%); 
-                              animation: appear 2s forwards; }
-                              .casts{ border: 2px solid; position: relative;
-                               top: -130px; width: 120px; height: 30px; left: 100px; grid-template-columns: repeat(2,1fr) ;z-index: 2;      opacity: 0; 
-                               transform: translateY(100%); 
-                               animation: appear 2s forwards; }
-                               .castv{ border: 2px solid; position: relative;
-                                 top: -130px; width: 120px; height: 30px; left: 60px; grid-template-columns: repeat(2,1fr) ;z-index: 2;      opacity: 0; 
-                                 transform: translateY(100%); 
-                                 animation: appear 2s forwards; } 
-                                 .vwb{ position: relative; left: 100px;  border: 0px; z-index:2 ; top: -80px;       opacity: 0; 
-                                  transform: translateY(100%); 
-                                  animation: appear 2s forwards;}
-                                .vwbq{ position: relative; left: 104px;  z-index: 2; top: -80px;       opacity: 0; 
-                                  transform: translateY(100%); 
-                                  animation: appear 2s forwards; }
-                                .vwbqqvx{  position: relative; left: 109px; z-index: 2; top: -80px;}
-                                .thireevs{ 
-                                  position: relative; left: 100px; width: 185px; top: -90px; border: 0px solid;
-                                  height: 260px;
-                                  grid-template-columns: repeat(2,1fr); z-index: 1;      opacity: 0; 
-                                  transform: translateY(100%); 
-                                  animation: appear 2s forwards;}
-                                  .nation{ position: relative; left: -50px;top: -50px; width: 100px; border: 0px; background-color: blueviolet; color: white;}
-                                  .afterback{  display: flex; justify-content: center; align-items: center; position: relative; top: 120px; left: -90px; }
-              .afterbacks{  display: flex; position: relative; top: -30px; left: 540px;}
-              .afterbackv{  display: flex; position: relative; top: -180px; left: 60px;}
-              .afterbackm{  display: flex; position: relative; top: -330px; left: 380px;}
-              .whati{  background-color: #e6e6e6; height: 1000px; position: relative; top: -220px; left: -90px;}
-                .whatv{ font-size: 40px; padding: 140px; color: black; position: relative; top: -60px;}
-                .what{ font-size: 16px; margin: 140px; position: relative; top: -350px;}
-                .mainu{ position: relative;}
-              
-               .wrons{ background-color: white; position: relative; top: 10px; width: 300px; border-radius: 10px; position: relative; left: -160px; top: 150px;}
-               .wronv{ background-color: white; position: relative; top: 15px; width: 300px; border-radius: 10px; left: -160px; top: 160px;}
-               
-               .mainu{ position: relative; top: -900px; left: 700px;}
-                .happy{ display: flex; justify-content: center; align-items: center; position: relative; top: -800px;}
-               .Testimonial{ display: flex; justify-content: center; align-items: center; position: relative; top: -700px; font-size: -180px; padding: 30px;} 
-               .wron{  position: relative; top: 700px; left: -460px;} 
-                
-                                } 
-                                /* @media( max-width:375px){ */
 
-              
-  nav {
+.card{
+  margin: 0% auto; 
+  padding: 2em;
+  width: 300px;
+  background: #eee
+;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  top: 500px;
+}
+.card::after, .card::before{
+  content: "";
+  position: absolute;
+ height: 100%;
+ width: 100%;
+ background:linear-gradient( red,blue,yellow ,red);
+ top:50%;
+ left:50%;
+ translate: -50%-50%;
+ z-index: -1;
+ padding: 6px;
+ border-radius: 10px;
+}
+.card::before{
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+.bases{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 600px;
+  background-color: burlywood;
+  height: 70px;
+  color: black;
+  border-radius: 60px;
+  width: 900px;
+  position: relative;
+  left: 200px;
+  
+}
+.vido{  text-align: center;
+  color: white;
+  font-size: 30px;
+  position: relative; top: 700px;
+}
+.fac{
+   font-size: 40px;
+   
+   color: blue;
+   position: relative;
+   top: 800px;
+   left: 30px;
+}
+@media( max-width:375px){
+  nav{ 
+  
     display: flex;
-    justify-content: space-around;
+    
+    justify-content: center;
     align-items: center;
-    padding-block: 10px;
+    padding-block: 20px;  font-size: 18px;
+    position: relative; right: 36px;
+     color: skyblue;
+     overflow: hidden; /* hides the text */
+     max-height: 0; /* starts with zero height */
+     animation: writing 9s forwards;
+  
+   
   }
-  .contact{ display: flex; position: relative; top: 320px; left: -180px; color: black;}
-
-  nav ul {
+  @keyframes writing {
+    0% { max-height: 0 }
+    100% { max-height: 100vh } /* adjust this value to your needs */
+  }
+  
+  nav ul{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 8%;  
+    
   }
-nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-    font-family: fantasy;
-    opacity: 0; 
-  width: 0; 
-  animation: appear 9s forwards;
-
-}
-
-.u{
-  position: relative; top: -49px;
-}
-.firstpic{
-  position: relative;
-  top: 45px; left: 00px;
-  opacity: 0; 
-  transform: translateY(100%); 
-  animation: appear 2s forwards;
   
-} */
-
-.pro{ font-size: 30px;  position: relative;
-  top: -300px;
-  left: -600px;
-      white-space: nowrap;
-  animation: typing 2s;
-  cursor: .4s step-end infinite alternate;
-  opacity: 0; 
-  transform: translateY(100%); 
-  animation: appear 2s forwards;
-  overflow: hidden;
-  background-color:#455a64;
-        }
-                  .n{
-                    position: relative; top: 140px; left: -75px;
-                  }     
-                  section{
-                    background-color: #455a64;
-                    padding: 80px;
-                    margin: 45px;
-                    width: 150px;
-                    position: relative;
-                    top: -200px;
-                    z-index: 2;
-                    height: 500px;
-                    opacity: 0; 
-                    transform: translateY(100%); 
-                    animation: appear 2s forwards;
-                }
-                .pros{
-                  width: 300px; position: relative; top: -450px; left: -70px;
-                }
-                .boru{ width: 170px; height: 80px; position: relative; top: 670px; left: 180px; border: 0px solid; background-color: #B2FFFC;       opacity: 0; 
-                  transform: translateY(100%);   background-color: #e5e5e5; border-radius: 10px;
-                  animation: appear 2s forwards;}
-                 .borus{ width: 170px; height: 80px; position: relative; top: 590px; left: 8px; border: 0px solid; background-color: #e5e5e5;  border-radius: 10px;}
-                 .boruv{   width: 170px; height: 90px; position: relative; top: 620px; left: 8px; border: 0px solid; background-color: #e5e5e5;       opacity: 0 ; border-radius: 10px; 
-                  transform: translateY(100%); 
-                  animation: appear 2s forwards;}
-                 .boruz{ width: 170px; height: 90px; position: relative; top: 530px; left: 180px; border: 0px solid; background-color: #e5e5e5;      opacity: 0;  border-radius: 10px;
-                }
-                .newsv{ height: 650px; position: relative; top: -680px;       opacity: 0; 
-                  transform: translateY(100%); 
-                  animation: appear 2s forwards; }
-                  .processs{ position: relative; top: 650px; font-size: 40px;  left: 60px;       opacity: 0; 
-                    transform: translateY(100%); 
-                    animation: appear 2s forwards;}
-                   .processv{ position: relative; top: 650px; left: 90px; }
-                   .mmwn{ position: relative; left: 20px;      opacity: 0; 
-                    transform: translateY(100%); 
-                    animation: appear 2s forwards;}
-                    .vwbqq{ width: 120px; position: relative; left: 00px;  border: 0px; z-index:2 ;      opacity: 0; 
-                      transform: translateY(100%); 
-                      animation: appear 2s forwards;}
-                     .vwbqqs{ width: 120px; position: relative; left: 00px;  z-index: 2;       opacity: 0; 
-                      transform: translateY(100%); 
-                      animation: appear 2s forwards; }
-                     .vwbqqv{ width: 120px;  position: relative; left: -1px; z-index: 2;       opacity: 0; 
-                      transform: translateY(100%); 
-                      animation: appear 2s forwards;}
-                      .thireev{ 
-                        position: relative; left: 0px; width: 120px; top: -60px; border: 0px solid;
-                        height: 260px;
-                        grid-template-columns: repeat(2,1fr); z-index: 1;      opacity: 0; 
-                        transform: translateY(100%); 
-                        animation: appear 2s forwards;
-                      }
-                      .caststudy{ border: 2px solid; position: relative;
-                        top: -130px; width: 120px; height: 30px; left: 00px;   grid-template-columns: repeat(2,1fr) ;z-index: 2;       opacity: 0; 
-                        transform: translateY(100%); 
-                        animation: appear 2s forwards; }
-                        .casts{ border: 2px solid; position: relative;
-                         top: -130px; width: 120px; height: 30px; left: 0px; grid-template-columns: repeat(2,1fr) ;z-index: 2;      opacity: 0; 
-                         transform: translateY(100%); 
-                         animation: appear 2s forwards; }
-                         .castv{ border: 2px solid; position: relative;
-                           top: -130px; width: 120px; height: 30px; left: 0px; grid-template-columns: repeat(2,1fr) ;z-index: 2;      opacity: 0; 
-                           transform: translateY(100%); 
-                           animation: appear 2s forwards; }
-                           .vwb{  width: 120px;position: relative; left:0px ;  border: 0px; z-index:2 ; top: -80px;       opacity: 0; 
-                            transform: translateY(100%); 
-                            animation: appear 2s forwards;}
-                          .vwbq{ width: 120px; position: relative; left: 0px;  z-index: 2; top: -80px;       opacity: 0; 
-                            transform: translateY(100%); 
-                            animation: appear 2s forwards; }
-                          .vwbqqvx{  width: 120px; position: relative; left: 0px; z-index: 2; top: -80px;}
-                          .thireevs{ 
-                            position: relative; left: 0px; width: 120px; top: -90px; border: 0px solid;
-                            height: 260px;
-                            grid-template-columns: repeat(2,1fr); z-index: 1;      opacity: 0; 
-                            transform: translateY(100%); 
-                            animation: appear 2s forwards;
-                          }
-                          .nation{ position: relative; left: 20px;top: -70px; width: 100px; border: 0px; background-color: #007BFF; color: white;}
-
-                          .swnwe{ display: flex; justify-content: center; align-content: center; width: 380px; font-size: 14px;}
-                          .Blog{ display: flex; justify-content: center; align-items: center; position: relative; top: 10px; color: white; font-size: 70px;}
-                          .majority{
-                            display: flex; justify-content: center; align-items: center;    position: relative; top: 50px; color: white; font-size: 20px; left: 20px;
-                          }
-                          .afterback{  display: flex; justify-content: center; align-items: center; position: relative; top: 80px; left: -80px; }
-                          .afterbacks{  display: flex; position: relative; top: -70px; left: 190px;}
-                          .afterbackv{   display: flex; position: relative; top: -220px; left: 33px;}
-                          .afterbackm{    display: flex; position: relative; top: -370px; left: 190px; width: 10px;}
+  
+  nav ul li{
+    list-style-type: none; 
+  
+  }
+  .wnn{ position: relative; right: 250px;}
+  
+  
+     
+  
+  
+  body{ background-image: url(studio.jpg);}
+  .writup{ color: white; font-size: 30px; padding: 80px;}
+  .pic{
+    float: right; 
+    position: absolute;
+    right: 80px;
+    
+  
+  }
+  .wrios{ color: white; padding: 90px; font-size: 20px; position:absolute; left: 40px; top: 300px;}
+  button{
+    padding: 1em 2em;
+    
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 100px;
+   position: relative;
+   top: 680px; left: 120px;
+  }
+  .swa{
+    
+  }
+  
+  
+  
+  
+  .card{
+    margin: 0% auto; 
+    padding: 2em;
+    width: 200px;
+    background: #eee;
+  
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 700px;
+  }
+  .card::after, .card::before{
+    content: "";
+    position: absolute;
+   height: 100%;
+   width: 100%;
+   background:linear-gradient( red,blue,yellow ,red);
+   top:50%;
+   left:50%;
+   translate: -50%-50%;
+   z-index: -1;
+   padding: 6px;
+   border-radius: 10px;
+  }
+  .card::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+  }
+  .bases{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 720px;
+    
+    height: 70px;
+    color: black;
+    border-radius: 60px;
+    width: 200px;
+    position: relative;
+    left: 60px;
+    
+  }
+  .vido{  text-align: center;
+    color: white;
+    font-size: 30px;
+    position: relative; top: 740px;
+  }
+  .fac{
+     font-size: 20px;
+     
+     color: blue;
+     position: relative;
+     top: 800px;
+     left: 30px;
+  }
 
 
-                          /*  */
-                          .whati{  background-color: #455a64; height: 1000px; position: relative; top: 0; left: -90px; width: 900px;}
-                .whatv{  color: white; position: relative; top: -270px ;height: 30px; left: -30px;}
-                .what{  width: 500px;font-size: 10.5px; margin: 290px; position: relative; top: -690px; left: -69px; color: white;}
-                .mainu{ position: relative;}
-                /*  */
-                .mainu{ position: relative; top: -1200px; left:290px ;}
-              
-                .wrons{ background-color: white; position: relative; top: 10px; width: 300px; border-radius: 10px; position: relative; left: -169px; top: 150px;}
-                .wronv{ background-color:white; position: relative; top: 15px; width: 300px; border-radius: 10px; left: -160px; top: 160px;}
-                .wron{ background-color: white; width: 300; border-radius: 10px; position: relative; left:-164px; width: 300px; top: 520px; }
 
 
-                .happy{ display: flex; justify-content: center; align-items: center; position: relative; top: -520px;}
-                .Testimonial{ display: flex; justify-content: center; align-items: center; position: relative; top: -550px;}  
-                .happys{
-                  position: relative; left: 65px;
-                }
-                .facebook{
-                  width: 70px; position: relative;
-                  top: -39px; left: 30px; width: 90px; height: 40px;
-                  opacity: 0; 
-                  transform: translateY(100%); 
-                  animation: appear 2s forwards;
-              }
-              /*  */
-              .wse{ font-size: 10px; position: relative;left: -25px; top: 90px;
-              
-              }
-              .vwq{ font-size: 14px; position: relative; left: -10px; }
-              .buttons{
-                font-size: 15px;
-                background-color: #007BFF;
-                height: 29px;
-                color: white;
-                background-image: linear-gradient(to down, );
-                background-size: 200% 100%;
-                background-position: 0% 0%;
-                transition: background-position 1s ease-in-out;
-              }
-              .oinwo{ display: flex; justify-content: center; align-content: center;      opacity: 0; 
-                transform: translateY(100%); 
-                animation: appear 2s forwards; color: white;}
-                .mmwn{ position: relative; left: 50px;      opacity: 0; 
-                  transform: translateY(100%); 
-                  animation: appear 2s forwards; color: white;}
-                  p{ position: relative; left: 9px;}
-                  .lorem{ width: 200px; background-color: #007BFF; color: white;}
-                  .vbb{
-                
-                  }
-            }
+
+
+
+}
+
+
