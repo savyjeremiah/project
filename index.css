@@ -124,7 +124,7 @@ button{
    color: blue;
    position: relative;
    top: 800px;
-   left: 30px;
+   left: 31px;
 }
 @media( max-width:375px){
   nav{ 
