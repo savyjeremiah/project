@@ -172,7 +172,7 @@ transition: all 8s;
      color: skyblue;
      overflow: hidden; /* hides the text */
      max-height: 0; /* starts with zero height */
-     animation: writing 9s forwards;
+     animation: writing 11s forwards;
   
    
   }
@@ -286,7 +286,7 @@ transition: all 8s;
   .wns{
     background: linear-gradient(to top,rgba(0,153,0.74) white 50%);
     background-size: 100%200%;
-    transition: all 8s;
+    transition: all 12s;
      height: 300px;
      width: 300px; border-radius: 2px;
      position: relative; top: 1200px;
@@ -305,11 +305,11 @@ transition: all 8s;
       font-size: 30px;
       background: linear-gradient(to top,rgba(0,153,0.74) white 50%);
       background-size: 100%200%;
-      transition: all 8s;
+      transition: all 12s;
      }.wnsb{
       background: linear-gradient(to top,rgba(0,153,0.74) white 50%);
     background-size: 100%200%;
-    transition: all 8s; 
+    transition: all 12s; 
       height: 300px;
       width: 300px; border-radius: 2px;
       position: relative; top: 900px;
@@ -317,7 +317,7 @@ transition: all 8s;
       font-size: 30px;
      }
 .pro{
-  
+
 }
 
 
