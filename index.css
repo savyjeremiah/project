@@ -290,7 +290,7 @@ button:hover span{
     border-radius: 10px;
     background-color: #f7f;
     position: absolute;
-    left: 300px;
+    left: 320px;
     z-index: 1;
   } 
   .writup{ color: white; font-size: 30px; padding: 80px; position: relative; top: 360px;}
