@@ -195,12 +195,12 @@ color: white;
    }
    nav ul{
     display: inline-flex;
-    margin: 3px;
+    margin: 9px;
     list-style: none ;
-    margin: 2px;
+    margin: 5px;
     color: black;
-    gap: 10px;
-    font-size: 16px;
+    gap: 45px;
+    font-size: 10px;
     
     background-color: #f7f7f7; color: b; width: 40pc;
     border-radius: 310px;
@@ -210,7 +210,7 @@ color: white;
     border-radius: 10px;
     background-color: #f7f7f7;
     position: absolute;
-    left: 20px;
+    left: 300px;
     z-index: 1;
   } 
   .pic{
