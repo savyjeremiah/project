@@ -1,76 +1,48 @@
 *{
-  padding:0 ;
+  padding: 0;
   margin: 0;
 }
-nav{ 
-  
-  display: flex;
-  
-  justify-content: center;
-  align-items: center;
-  padding-block: 20px;  font-size: 40px;
-   color: skyblue;
-   overflow: hidden; /* hides the text */
-   max-height: 0; /* starts with zero height */
-   animation: writing 9s forwards;
-
- 
-}
-@keyframes writing {
-  0% { max-height: 0 }
-  100% { max-height: 100vh } /* adjust this value to your needs */
+nav{
+ width: 70%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ padding: 10px 8px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
 }
 
 nav ul{
-  display: flex;
-  justify-content: center;
-  gap: 20%;  
-  
+  display: inline-flex;
+  margin: 15px;
+  list-style: none ;
+  margin: 0 20px;
+  color: black;
+  gap: 90px;
+  font-size: 30px;
+  background-color: #f7f7f7; color: b; width: 40pc;
+  border-radius: 310px;
 }
-
-
-nav ul li{
-  list-style-type: none; 
-
-}
-.wnn{ position: relative; right: 250px;}
-
-
-   
-
-
-body{ background-image: url(studio.jpg);background-repeat:  no-repeat repeat; background-size: 100% 100%; }
-.writup{ color: white; font-size: 30px; padding: 80px;}
+.saviour{
+  color:black;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  position: absolute;
+  left: 900px;
+  z-index: 1;
+} 
+body{ background-image: url(IMG-20240808-WA0008.jpg);background-repeat:  no-repeat repeat; background-size: 100% 100%;  background-position: center;}
+.writup{ color: black; font-size: 30px; padding: 80px;}
 .pic{
   float: right; 
   position: absolute;
   right: 250px;
+  top: 60px;
   
 
 }
-.wrios{ color: white; padding: 90px; font-size: 30px; position:absolute; left: 40px;}
-.buttons{
-  padding: 1em 2em;
-  
-  border: none;
-  background-color: blue;
-  color: white;
-  border-radius: 100px;
- position: relative;
- top: 390px; left: 120px;
-
-
-
-
-}
-.swa{
-  
-}
-
-
-
-
-.card{
+.Card{
   margin: 0% auto; 
   padding: 2em;
   width: 300px;
@@ -79,9 +51,9 @@ body{ background-image: url(studio.jpg);background-repeat:  no-repeat repeat; ba
   text-align: center;
   border-radius: 10px;
   position: relative;
-  top: 500px;
+  top: 100px;
 }
-.card::after, .card::before{
+.Card::after, .card::before{
   content: "";
   position: absolute;
  height: 100%;
@@ -94,235 +66,233 @@ body{ background-image: url(studio.jpg);background-repeat:  no-repeat repeat; ba
  padding: 6px;
  border-radius: 10px;
 }
-.card::before{
-  filter: blur(1.5rem);
-  opacity: 0.5;
+.sa{
+  padding: 1em 2em;
+    height: 200px;
+    width: 200px;
+  border: none;
+  background-color: wheat;
+  color: black;
+  border-radius: 10px;
+ position: absolute;
+ top: 790px; left: 320px;
+
+
 }
-.bases{
-  display: flex;
+.sas{
+  padding: 1em 2em;
+  height: 200px;
+  width: 200px;
+  border: none;
+  background-color: wheat;
+  color: black;
+  border-radius: 10px;
+ position: absolute;
+ top: 790px; left: 550px;
+
+}
+.sav{
+  padding: 1em 2em;
+  height: 200px;
+  width: 200px;
+  border: none;
+  background-color: wheat;
+  color: black;
+  border-radius: 10px;
+ position: absolute;
+ top: 790px; left: 800px;
+
+}
+.win{ display: flex;
   justify-content: center;
   align-items: center;
+color: black;
+position: absolute;
+top: 1040px; width: 500px;
+left: 400px;
+}
+.was{ display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;;
+  position: absolute;
+  top: 1170px;
+  left:390px; 
+  width: 500px;
+  font-size: 20px;
+}
+.lonin{
+  background-color: rgb(0, 174, 255);
   position: relative;
-  top: 600px;
-  background-color: burlywood;
-  height: 70px;
-  color: black;
-  border-radius: 60px;
-  width: 900px;
-  position: relative;
-  left: 200px;
-  
-}
-.vido{  text-align: center;
-  color: white;
-  font-size: 30px;
-  position: relative; top: 700px;
-}
-.fac{
-   font-size: 40px;
-   
-   color: blue;
-   position: relative;
-   top: 800px;
-   left: 31px;
-}
-.wns{
-background: linear-gradient(to top,rgba(0,153,0.74) white 50%);
-background-size: 100%200%;
-transition: all 8s;
- height: 300px;
- width: 300px; border-radius: 2px;
- position: relative; top: 900px;
- left: 380px;
- font-size: 30px;
- border-radius: none;
- 
- background-color: red;
- background-color: blueviolet;
-}.wnsv{
-  background-color: yellow; 
-  height: 300px;
-  width: 300px; border-radius: 2px;
-  position: relative; top: 600px;
-  left: 30px;
-  font-size: 30px;
-  background: linear-gradient(to top,rgba(0,153,0.74) white 50%);
-  background-size: 100%200%;
-  transition: all 8s;
- }.wnsb{
-  background: linear-gradient(to top,rgba(0,153,0.74) white 50%);
-background-size: 100%200%;
-transition: all 8s; 
-  height: 300px;
-  width: 300px; border-radius: 2px;
-  position: relative; top: 300px;
-  left: 700px;
-  font-size: 30px;
- }
+  top: 700px;
+  left: 550px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border-radius: 10px;
 
+}
+input{
+  width: 160px;
+  height: 20px;
+}
+.you{ font-size: 50px;
+  position: relative;
+  left: 70px;
+
+}
+.lo{ position: relative;
+  left: 120px;
+
+}
+.wanu{
+position: relative;
+top: 760px;
+left: 300px;
+color: black;
+}
 @media( max-width:375px){
-  nav{ 
-  
+  nav{
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    padding: 9px 5px;
     display: flex;
-    
-    justify-content: center;
     align-items: center;
-    padding-block: 21px;  font-size: 15px;
-    position: relative; right: 36px;
-     color: skyblue;
-     overflow: hidden; /* hides the text */
-     max-height: 0; /* starts with zero height */
-     animation: writing 11s forwards;
-  
-   
-  }
-  @keyframes writing {
-    0% { max-height: 0 }
-    100% { max-height: 100vh } /* adjust this value to your needs */
-  }
-  
-  nav ul{
-    display: flex;
-    justify-content: center;
-    gap: 8%;  
+    justify-content: space-between;
+   }
+   nav ul{
+    display: inline-flex;
+    margin: 3px;
+    list-style: none ;
+    margin: 2px;
+    color: black;
+    gap: 30px;
+    font-size: 16px;
     
+    background-color: #f7f7f7; color: b; width: 40pc;
+    border-radius: 310px;
   }
-  
-  
-  nav ul li{
-    list-style-type: none; 
-  
-  }
-  .wnn{ position: relative; right: 250px;}
-  
-  
-     
-  
-  
-  body{ background-image: url(studio.jpg);}
-  .writup{ color: white; font-size: 31px; padding: 80px;}
+  .saviour{
+    color:black;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    position: absolute;
+    left: 290px;
+    z-index: 1;
+  } 
   .pic{
     float: right; 
     position: absolute;
-    right: 80px;
+    right: 50px;
+    top: 60px;
     
   
   }
-  .wrios{ color: white; padding: 90px; font-size: 20px; position:absolute; left: 40px; top: 300px;}
-  .buttonsvs{
-    padding: 1em 2em;
-    
-    border: none;
-    background-color: blue;
-    color: white;
-    border-radius: 100px;
-   position: relative;
-   top: 680px; left: 120px;
-  }
-  .swa{
-    
-  }
-  
-  
-  
-  
-  .card{
+  .writup{ color: white; font-size: 30px; padding: 60px; position:relative ; top: 370px;}
+
+  .Card{
     margin: 0% auto; 
     padding: 2em;
     width: 200px;
-    background: #eee;
-  
+    background: #eee
+  ;
     text-align: center;
     border-radius: 10px;
     position: relative;
-    top: 700px;
+    top: 350px;
   }
-  .card::after, .card::before{
-    content: "";
-    position: absolute;
-   height: 100%;
-   width: 100%;
-   background:linear-gradient( red,blue,yellow ,red);
-   top:50%;
-   left:50%;
-   translate: -50%-50%;
-   z-index: -1;
-   padding: 6px;
-   border-radius: 10px;
-  }
-  .card::before{
-    filter: blur(1.2rem);
-    opacity: 0.2;
-  }
-  .bases{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 720px;
-    
-    height: 70px;
-    color: black;
-    border-radius: 60px;
-    width: 200px;
-    position: relative;
-    left: 60px;
-    
-  }
-  .vido{  text-align: center;
-    color: white;
-    font-size: 31px;
-    position: relative; top: 740px;
-  }
-  .fac{
-     font-size: 21px;
-     
-     color: blue;
-     position: relative;
-     top: 800px;
-     left: 30px;
+  
+.sa{
+  padding: 1em 2em;
+    height: 200px;
+    width: 100px;
+  border: none;
+  background-color: wheat;
+  color: black;
+  border-radius: 10px;
+ position: absolute;
+ top: 1200px; left: 10px;
+ font-size: 8px;
+
+
+}
+.sas{
+  padding: 1em 2em;
+  height: 200px;
+  width: 100px;
+  border: none;
+  background-color: wheat;
+  color: black;
+  border-radius: 10px;
+ position: absolute;
+ top: 1200px; left: 120px;
+ font-size: 8px;
+
+}
+.sav{
+  padding: 1em 2em;
+  height: 200px;
+  width: 100px;
+  border: none;
+  background-color: wheat;
+  color: black;
+  border-radius: 10px;
+ position: absolute;
+ top: 1200px; left: 230px;
+ font-size: 8px;
+
+}
+.win{ display: flex;
+  justify-content: center;
+  align-items: center;
+color: black;
+position: relative;
+top: 640px; width: 500px;
+
+left:-70px;
+font-size: 27px;
+}
+.was{ display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;;
+  position: absolute;
+  top: 1527px;
+  left: -60px; 
+  width: 500px;
+  font-size:15px ;
+}
+.lonin{
+  background-color: rgb(0, 174, 255);
+  position: relative;
+  top: 780px;
+  left: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border-radius: 10px;
+
+}
+
+.wanu{
+  position: relative;
+  top: 790px;
+  left: 60px;
+  color: black;
+  font-size: 10px;
   }
 
-  .wns{
-    background: linear-gradient(to top,rgba(0,153,0.74) white 50%);
-    background-size: 100%200%;
-    transition: all 12s;
-     height: 300px;
-     width: 300px; border-radius: 2px;
-     position: relative; top: 1200px;
-     left: 30px;
-     font-size: 30px;
-     border-radius: none;
-     
-     background-color: red;
-     background-color: blueviolet;
-    }.wnsv{
-      background-color: yellow; 
-      height: 300px;
-      width: 300px; border-radius: 2px;
-      position: relative; top: 600px;
-      left: 30px;
-      font-size: 30px;
-      background: linear-gradient(to top,rgba(0,153,0.74) white 50%);
-      background-size: 100%200%;
-      transition: all 12s;
-     }.wnsb{
-      background: linear-gradient(to top,rgba(0,153,0.74) white 50%);
-    background-size: 100%200%;
-    transition: all 12s; 
-      height: 300px;
-      width: 300px; border-radius: 2px;
-      position: relative; top: 900px;
-      left: 30px;
-      font-size: 30px;
-     }
-.pro{
+
+
+
+
+
 
 }
 
 
-
-
-}
 
 
