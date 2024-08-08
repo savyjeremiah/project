@@ -231,14 +231,14 @@ color: white;
   .Card{
     margin: 0% auto; 
     padding: 20px;
-    width: 320px;
+    width: 260px;
     background: #eee
   ;
     text-align: center;
     border-radius: 10px;
     position: absolute;
     top: 1340px;
-    left: 10px;
+    left: 28px;
   }
   .sa{
     padding: 1em 2em;
@@ -249,7 +249,7 @@ color: white;
     color: white;
     border-radius: 10px;
    position: absolute;
-   top: 1490px; left: 10px;
+   top: 1540px; left: 10px;
   font-size: 10px;
   }
   .sas{
@@ -261,7 +261,7 @@ color: white;
     color: white;
     border-radius: 10px;
    position: relative;
-   top: 440px; left: 130px;
+   top: 490px; left: 130px;
   font-size: 8px;
   }
   .sav{
@@ -273,7 +273,7 @@ color: white;
     color: white;
     border-radius: 10px;
    position: relative;
-   top: 240px; left: 240px;
+   top: 290px; left: 240px;
   font-size: 10px;
   }
   .win{ display: grid;
@@ -310,6 +310,9 @@ color: white;
     top: 440px;
     left: 100px;
     color: white;
+    }
+    .w{
+background-color: black;
     }
 }
 /* .writup{ color: black; font-size: 30px; position: absolute; top: 340px;}
