@@ -199,10 +199,10 @@ color: white;
     list-style: none ;
     margin: 5px;
     color: black;
-    gap: 45px;
-    font-size: 10px;
+    gap: 20px;
+    font-size: 17px;
     
-    background-color: #f7f7f7; color: b; width: 40pc;
+    background-color: #f7f7f7; color: b; width: 47pc;
     border-radius: 310px;
   }
   .saviour{
@@ -210,7 +210,7 @@ color: white;
     border-radius: 10px;
     background-color: #f7f7f7;
     position: absolute;
-    left: 300px;
+    left: 320%;
     z-index: 1;
   } 
   .pic{
