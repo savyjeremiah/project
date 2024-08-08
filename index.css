@@ -237,7 +237,7 @@ color: white;
     text-align: center;
     border-radius: 10px;
     position: absolute;
-    top: 1360px;
+    top: 1380px;
     left: 28px;
   }
   .sa{
@@ -246,10 +246,10 @@ color: white;
       width: 100px;
     border: none;
     background-color: wheat;
-    color: white;
+    color:white ;
     border-radius: 10px;
    position: relative;
-   top: 490px; left: 10px;
+   top: 530px; left: 10px;
   font-size: 10px;
   }
   .sas{
@@ -258,10 +258,10 @@ color: white;
     width: 100px;
     border: none;
     background-color: wheat;
-    color: white;
+    color:white ;
     border-radius: 10px;
-   position: relative;
-   top: 290px; left: 130px;
+   position: absolute;
+   top: 1580px; left: 130px;
   font-size: 8px;
   }
   .sav{
@@ -273,7 +273,7 @@ color: white;
     color: white;
     border-radius: 10px;
    position: relative;
-   top: 90px; left: 240px;
+   top: 330px; left: 240px;
   font-size: 8px;
   }
   .win{ display: grid;
@@ -281,7 +281,7 @@ color: white;
     align-items: center;
   color: white;
   position: relative;
-  top: 210px; width: 500px;
+  top: 410px; width: 500px;
   left: -50px;
   }
   .was{ display: grid;
@@ -289,7 +289,7 @@ color: white;
     align-items: center;
     color: white;
     position: relative;
-    top: 300px;
+    top: 450px;
     left:-50px; 
     width: 500px;
     font-size: 13px;
@@ -297,7 +297,7 @@ color: white;
   .lonin{
     background-color: rgb(0, 174, 255);
     position: relative;
-    top: 400px;
+    top: 500px;
     left: 50px;
     justify-content: center;
     align-items: center;
@@ -307,7 +307,7 @@ color: white;
   }
   .wanu{
     position: relative;
-    top: 440px;
+    top: 530px;
     left: 100px;
     color: white;
     }
