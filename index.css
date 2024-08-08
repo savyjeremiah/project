@@ -237,7 +237,7 @@ color: white;
     text-align: center;
     border-radius: 10px;
     position: absolute;
-    top: 1340px;
+    top: 1360px;
     left: 28px;
   }
   .sa{
@@ -248,8 +248,8 @@ color: white;
     background-color: wheat;
     color: white;
     border-radius: 10px;
-   position: absolute;
-   top: 1540px; left: 10px;
+   position: relative;
+   top: 490px; left: 10px;
   font-size: 10px;
   }
   .sas{
@@ -261,7 +261,7 @@ color: white;
     color: white;
     border-radius: 10px;
    position: relative;
-   top: 490px; left: 130px;
+   top: 290px; left: 130px;
   font-size: 8px;
   }
   .sav{
@@ -273,15 +273,15 @@ color: white;
     color: white;
     border-radius: 10px;
    position: relative;
-   top: 290px; left: 240px;
-  font-size: 10px;
+   top: 90px; left: 240px;
+  font-size: 8px;
   }
   .win{ display: grid;
     justify-content: center;
     align-items: center;
   color: white;
   position: relative;
-  top: 300px; width: 500px;
+  top: 210px; width: 500px;
   left: -50px;
   }
   .was{ display: grid;
