@@ -182,58 +182,137 @@ color: white;
 }
 
 @media( max-width:375px){
-  *{  padding: 0;
-  margin: 0;
-}
-nav{
- width: 20%;
- position: absolute;
- top: 0;
- left: 0;
- display: flex;
- align-items: center;
- justify-content: space-between;
+  body{ background-image: url(IMG-20240808-WA0008.jpg);background-repeat:  no-repeat repeat;   width: 0px; background-position: center;}
 
-}
-nav ul{
-  display: inline-flex;
-  margin: 15px;
-  list-style: none ;
+  .pic{
+    display: grid;
+    position: absolute;
+    right: -340px;
+    top: 60px;
   
-  color: black;
-  gap: 10px;
-  font-size: 18px;
-  background-color: #f7f7f7; color: blue; width: 40pc;
-  border-radius: 10px;
-}
-body{
-  opacity: 0; 
-  transform: translateX(-100%); 
-  animation: appear 0.57s forwards;
-}
-@keyframes appear {
-  0% { opacity: 0; transform: translateX(100%) }
-  100% { opacity: 1; transform: translateX(0) }
-}
+  }
 
-.saviour{
-  color:black;
-  border-radius: 10px;
-  background-color: #f7f7f7;
-  color: blue;
-  position: absolute;
-  left: 260px;
-  z-index: 1;
-} 
-.pic{
-  float: right; 
-  position: absolute;
-  right: 70px;
-  top: 60px;
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  nav{
+   width: 0%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 10px 8px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  }
   
-
+  nav ul{
+    display: inline-flex;
+    margin: 15px;
+    list-style: none ;
+    margin: 0 20px;
+    color: black;
+    gap: 10px;
+    font-size: 15px;
+    background-color: #f7f7f7; color: b; width: 40pc;
+    border-radius: 310px;
+    width: 0px;
+  }
+  .saviour{
+    color:black;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    position: absolute;
+    left: 300px;
+    z-index: 1;
+  } 
+  .writup{ color: white; font-size: 30px; padding: 80px; position: relative; top: 360px;}
+  .Card{
+    margin: 0% auto; 
+    padding: 20px;
+    width: 320px;
+    background: #eee
+  ;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 1340px;
+    left: 10px;
+  }
+  .sa{
+    padding: 1em 2em;
+      height: 200px;
+      width: 100px;
+    border: none;
+    background-color: wheat;
+    color: white;
+    border-radius: 10px;
+   position: absolute;
+   top: 1490px; left: 10px;
+  font-size: 10px;
+  }
+  .sas{
+    padding: 1em 2em;
+    height: 200px;
+    width: 100px;
+    border: none;
+    background-color: wheat;
+    color: white;
+    border-radius: 10px;
+   position: relative;
+   top: 440px; left: 130px;
+  font-size: 8px;
+  }
+  .sav{
+    padding: 1em 2em;
+    height: 200px;
+    width: 100px;
+    border: none;
+    background-color: wheat;
+    color: white;
+    border-radius: 10px;
+   position: relative;
+   top: 240px; left: 240px;
+  font-size: 10px;
+  }
+  .win{ display: grid;
+    justify-content: center;
+    align-items: center;
+  color: white;
+  position: relative;
+  top: 300px; width: 500px;
+  left: -50px;
+  }
+  .was{ display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 300px;
+    left:-50px; 
+    width: 500px;
+    font-size: 13px;
+  }
+  .lonin{
+    background-color: rgb(0, 174, 255);
+    position: relative;
+    top: 400px;
+    left: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+  
+  }
+  .wanu{
+    position: relative;
+    top: 440px;
+    left: 100px;
+    color: white;
+    }
 }
-.writup{ color: black; font-size: 30px; position: absolute; top: 340px;}
+/* .writup{ color: black; font-size: 30px; position: absolute; top: 340px;}
 
 .Card{
   margin: 0% auto; 
@@ -243,7 +322,7 @@ body{
 ;
   text-align: center;
   border-radius: 10px;
-  position: relative;
+  position: absolute;
   top: 1000px;
 }
 .sa{
@@ -266,7 +345,7 @@ font-size: 10px;
   background-color: wheat;
   color: black;
   border-radius: 10px;
- position: absolute;
+ position: relative;
  top: 1190px; left: 130px;
 font-size: 8px;
 }
@@ -279,7 +358,7 @@ font-size: 8px;
   color: black;
   border-radius: 10px;
  position: relative;
- top: 1040px; left: 250px;
+ top: 1190px; left: 160px;
 font-size: 10px;
 }
 .win{ display: flex;
@@ -334,4 +413,4 @@ left: -50px;
 
 
 
-}
+} */
