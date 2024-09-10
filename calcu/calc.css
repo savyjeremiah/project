@@ -42,7 +42,8 @@ body{
     position: absolute;
     left: 2%;
     }
-    /* .buttonvs{
+
+    .buttonvs{
        width: 45px;  
        height: 40px;
        position: relative;
@@ -59,7 +60,7 @@ body{
         position: absolute;
         top: 80px;
         border-radius: 20px;
-    } */
+    } 
 
 
 }
