@@ -28,7 +28,7 @@ let worl =document.querySelector(".worl")
 let wind =document.querySelector(".wind")
 let secondbutton=document.querySelector(".secondbutton")
 
-//  let typesValue=inputs.Value;
+  let typesValue=inputs.Value;
  let page=1;
 
 async function getImage(location) {
