@@ -1,0 +1,116 @@
+.main{
+    background-image: url(IMG-20240823-WA0121.jpg);   background-repeat:  no-repeat repeat; background-size:  100%; 
+    height: 500px
+}
+.latter{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+ height: 100vh;
+ margin-top: 80px;
+}
+.worl{
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    border: 0;
+    
+}
+
+.secondbutton{
+width: 90px;
+height: 20px;
+background-color: blue;
+position: relative;
+top: -25px;
+left: 150px;
+color: white;
+border: none;
+border-radius: 20px;
+}
+.worl{
+    width: 450px;
+    height: 30px;
+}
+.wind{
+ justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    height: 330px;
+    margin-top: -160px;
+    background-color: white;
+}
+.white{
+    background-color: red;
+    height: 200px;
+    margin-top: 40px;
+    gap: 50px;
+}
+.school{
+    margin-top: -10px;
+}
+
+img{
+    width: 100%;
+    height: 80%;
+}
+@media( max-width:375px){
+    .latter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    font-size: 70%;
+        height: 100vh;
+        margin-top: -40%;
+    position: relative;
+    left: -0%;
+
+    
+       }
+       .worl{
+        width: 170%;
+       height: 150%;
+       border-radius: 20px;
+       border: 0;
+       position: relative;
+       left: -40%;
+       top: -100%;
+    
+      } 
+      .secondbutton{
+      
+        background-color: blue;
+        position: relative;
+        left: 27%;
+        top: -5.5%;
+     width: 30%;
+        color: white;
+        border: none;
+         background-color: red
+        }
+    ;
+
+}
+    /* *{
+      padding: 0%;
+      margin: 0%;
+    }
+    
+         
+       .secondbutton{
+      
+        background-color: blue;
+        position: relative;
+        left: 27%;
+        top: -2.5%;
+     width: 50%;
+        color: white;
+        border: none;
+        border-radius: 20%;
+        }
+} */

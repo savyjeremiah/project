@@ -1,0 +1,64 @@
+body{
+    background-color: blue;
+}
+.main{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 430px;
+    top: 200px;
+    border-radius: 20px;
+}
+.buttonvs{
+   width: 45px;  
+   height: 40px;
+   position: relative;
+   top: 43px;
+   
+   margin-left: 20px;
+   margin-top: 10px;
+   border-radius: 8px;
+}
+.school{
+    width: 200px;
+    height: 50px;
+    margin-left: 40px;
+    position: absolute;
+    top: 80px;
+    border-radius: 20px;
+}
+
+@media( max-width:320px){
+    body{
+        background-color: blue;
+    }
+    .main{
+        background-color: white;
+      position: relative;
+      left: -0%;
+    }
+    /* .buttonvs{
+       width: 45px;  
+       height: 40px;
+       position: relative;
+       top: 43px;
+       
+       margin-left: 20px;
+       margin-top: 10px;
+       border-radius: 8px;
+    }
+    .school{
+        width: 200px;
+        height: 50px;
+        margin-left: 40px;
+        position: absolute;
+        top: 80px;
+        border-radius: 20px;
+    } */
+
+
+}
