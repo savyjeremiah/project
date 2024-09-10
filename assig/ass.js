@@ -40,7 +40,7 @@ async function getImage(location) {
     console.log(data);
      let results =data.results;
      console.log(results)
-
+     if(page == 1){wind.innerHTML=" ";}
     results.forEach((item)=> {
             console.log(item.urls.regular);
     
@@ -53,6 +53,7 @@ async function getImage(location) {
         let location= worl.value;
          getImage(location)
         })
+
     
     
     // let results =data.results;
