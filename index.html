@@ -40,8 +40,143 @@
         <h1>Client Always Gets <br> Exceptional Work <br> From Me</h1>
         <p>I believe that technology should be accessible to everyone. By learning front-end development, I can create interfaces that are intuitive, user-friendly, and inclusive.</p>
     </section>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31710.80496777852!2d3.2644901999999996!3d6.5405405000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1725444911906!5m2!1sen!2sng" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+  
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+  
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .swiper {
+        width: 30%;
+        height: 50%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 20px;
+        width: 80%;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 40%;
+        height: 50%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"> <section id="projects" class="projects-section">
+            <div class="container">
+                
+                <div class="projects">
+                    <div class="project">
+                        <img src="door.jpg" alt="Weather Project">
+                        
+                        <p>A dynamic weather application.</p>
+                        <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+           
+            
+           <i class="fa-solid fa-angle-right"></i>  </div>
+        
+        <div class="swiper-slide">
+            <div class="projects">
+                <div class="project">
+                    <img src="door.jpg" alt="Weather Project">
+                
+                    <p>A dynamic weather application.</p>
+                    <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                
+                
+            </div></div>
+        <div class="swiper-slide">
+            <div class="projects">
+                <div class="project">
+                    <img src="door.jpg" alt="Weather Project">
+                    
+                    <p>A dynamic weather application.</p>
+                    <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                
+                
+            </div></div>
+        <div class="swiper-slide">
+            <div class="projects">
+                <div class="project">
+                    <img src="door.jpg" alt="Weather Project">
+                    
+                    <p>A dynamic weather application.</p>
+                    <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                
+                
+            </div></div>
+        <div class="swiper-slide">
+            <div class="projects">
+                <div class="project">
+                    <img src="door.jpg" alt="Weather Project">
+                    
+                    <p>A dynamic weather application.</p>
+                    <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                
+                
+            </div> </div>
+       
+        
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 
-    <!-- Projects Section -->
+    <!-- Projects Section
     <section id="projects" class="projects-section">
         <div class="container">
             <h2>My Projects</h2>
@@ -77,7 +212,7 @@
                 
             </div>
         </div>
-    </section>
+    </section> -->
     <section>
         <option value="com"></option>
     </section>
