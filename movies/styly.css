@@ -1,0 +1,96 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Search Bar Styles */
+.movie-search {
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.search {
+    padding: 10px 15px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.search:hover {
+    background-color: #4cae4c;
+}
+
+/* Movie Container */
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+/* Movie Box Styles */
+.movie-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.movie-box:hover {
+    transform: scale(1.05);
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+}
+
+.movie-details {
+    padding: 10px;
+}
+
+.movie-title {
+    font-size: 18px;
+    color: #333;
+}
+
+.movie-year, .movie-genre {
+    font-size: 14px;
+    color: #777;
+}
