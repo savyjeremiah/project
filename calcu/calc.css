@@ -1,8 +1,8 @@
 body{
-    background-color: blue;
+background-color: var(--color);
 }
 .main{
-    background-color: white;
+    background-color: tan;
     width: 300px;
     height: 500px;
     display: flex;
@@ -12,6 +12,9 @@ body{
     left: 430px;
     top: 200px;
     border-radius: 20px;
+}
+:root{
+    --color:red;
 }
 .buttonvs{
    width: 45px;  
@@ -32,9 +35,10 @@ body{
     border-radius: 20px;
 }
 
+
 @media(max-width:375px){
     body{
-        background-color: blue;
+        background-color: var(--color);
     
     }
     .main{
@@ -44,6 +48,7 @@ body{
     left: 10%;
     
     }
+
 
     /* .buttonvs{
        width: 45px;  
