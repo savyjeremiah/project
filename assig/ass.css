@@ -80,6 +80,7 @@ img{
        position: relative;
        left: -40%;
        top: -100%;
+       
     
       } 
       .secondbutton{
@@ -94,6 +95,11 @@ img{
          background-color: red
         }
     ;
+    .swiper {
+        width: 20%;
+        height: 70%;
+   
+      }
 
 }
     /* *{

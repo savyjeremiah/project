@@ -32,18 +32,20 @@ body{
     border-radius: 20px;
 }
 
-@media(max-width:320px){
+@media(max-width:375px){
     body{
         background-color: blue;
+    
     }
     .main{
-        margin-top: -60%;
+        margin-top: -40%;
         background-color: white;
     position: absolute;
-    left: 2%;
+    left: 10%;
+    
     }
 
-    .buttonvs{
+    /* .buttonvs{
        width: 45px;  
        height: 40px;
        position: relative;
@@ -60,7 +62,7 @@ body{
         position: absolute;
         top: 80px;
         border-radius: 20px;
-    } 
+    }  */
 
 
 }

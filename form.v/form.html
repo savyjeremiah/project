@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      width: 300px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="text"], input[type="email"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #5cb85c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #4cae4c;
+    }
+    .error {
+      border-color: red;
+    }
+    .error-message {
+      color: red;
+      font-size: 12px;
+      display: none;
+    }
+    input:invalid {
+      border-color: red;
+    }
+    input:invalid + .error-message {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Signup Form</h2>
+    <form id="signupForm" action="#">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required minlength="3" maxlength="20">
+        <div class="error-message">Username must be between 3 and 20 characters.</div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <div class="error-message">Please enter a valid email address.</div>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required minlength="6">
+        <div class="error-message">Password must be at least 6 characters long.</div>
+      </div>
+      <input type="submit" value="Signup">
+    </form>
+  </div>
+
+</body>
+</html>
